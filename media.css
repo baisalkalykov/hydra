@@ -1,0 +1,266 @@
+@media (max-width: 1293px) {
+    .container{
+        max-width: 1100px;
+    }
+    .div__woma::before,.div__woma::after{
+        display: none;
+    }
+    .div__lini::after{
+        display: none;
+    }
+    .links__ul__li{
+        color: white;
+    }
+   
+    .element::after {
+        display: none;
+    }
+    .div__text{
+        margin-left: 20px;
+    }
+    .infor__icons{
+        margin-left: -30px;
+    }
+    .links{
+        gap: 100px;
+
+    }
+    .links__ul{
+        gap: 15px;
+    }
+    form{
+        margin-left: -25px;
+    }
+    footer{
+        margin-left: -25px;
+    }
+    .links__ul {
+        gap: 39px;
+    }
+    header .container{
+        gap: 20px;
+    }
+}
+@media(max-width:1271px){
+    .links{
+        gap: 70px;
+    }
+    
+    .links__ul {
+        gap: 39px;
+    }
+    header .container{
+        gap: 20px;
+    }
+
+}
+@media(max-width:1265px){
+    .container{
+        max-width: 1050px;
+    }
+    header .container{
+        gap: 20px;
+    }
+    
+   
+    .card{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+}
+@media(max-width:1201px){
+    .container{
+        max-width: 1050px;
+    }
+    .infor__icons{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;   
+    }
+    .icons__line{
+        
+        max-width: 54px;
+        height: 5px;
+    }
+    .links__ul {
+        gap: 39px;
+    }
+    header .container{
+        gap: 20px;
+    }
+}
+@media(max-width:1130px){
+    .container{
+        max-width: 1000px;
+    }
+    .infor__icons{
+        width: 60%;
+        height: 400px;
+        margin-left: 200px;
+    }
+    .icons__line{
+        width: 150px;
+        height: 0px;
+      
+    }
+    .links__ul {
+        gap: 39px;
+    }
+    header .container{
+        gap: 20px;
+    }
+    .texno__img{
+        margin-left: 100px;
+        gap: 20px;
+    }
+
+}
+@media(max-width:1098px){
+    .container{
+        max-width: 900px;
+    }
+    .mean__img__text{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+    }
+    .histori__text__top {
+        margin-left: 100px;
+        width: 100%;
+    }
+    .texno__img{
+        margin-left: 100px;
+        gap: 20px;
+    }
+    .infor{
+        gap: 220px;
+    }
+
+    .mean__img::before{
+        display: none;
+    }
+    .mean__img::after{
+        display: none;
+    }
+    .links{
+        display: flex;
+    }
+    .burger{
+        display: none;
+    }
+    .links__ul__li{
+     gap: 20px;
+    }
+    header .container{
+        gap: 20px;
+    }
+    .links__ul {
+        gap: 39px;
+    }
+}
+@media(max-width:1066px){
+    .container{
+        max-width: 900px;
+    }
+    header .container{
+        gap: 20px;
+    }
+    .links{
+        gap: 15px;
+    }
+    .links__ul {
+        gap: 39px;
+    }
+    .mean__img__text{
+        margin-left: 100px;
+    }
+}
+@media(max-width:949px){
+    .container{
+    width: 800px;
+    }
+    .infor {
+        margin-left: 100px;
+    }
+    .mean__img__text{
+        margin-left: 70px;
+    }
+    .element{
+        margin-left: 100px;
+        gap: 20px;
+    }
+    .links{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .logo{
+        margin-left: 150px;
+        height: 70px;
+        z-index: 1;
+    }
+}
+@media(max-width:827px){
+    form{
+        margin-left: 25px;
+    }
+    .footer__info::before{
+        display: none;
+    }
+    .footer__info::after{
+        display: none;
+    }
+    .infor{
+        display: flex;
+        flex-direction: column;
+    }
+    .texno__img{
+        margin-left: 40px;
+    }
+     .headr__mobile{
+     display: none;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     height: 100vh;
+     max-width: 500px;
+     background: rgba(0, 0, 0, 0.159);
+     position: absolute;
+     color: white;
+     gap: 40px;
+     right: -220px;
+     top: 0;
+     z-index: 100;
+     cursor: pointer;
+     }
+     .links__ul{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      background: transparent;
+      margin-top: -357px;
+     }
+     .links__ul li{
+        background: transparent;
+     }
+     .ul__btns{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background: transparent;
+     }
+    .close{
+        font-size: 25px;
+        color: white;
+        background: transparent;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    
+
+    }
